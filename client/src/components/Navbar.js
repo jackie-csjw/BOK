@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { HashLink } from 'react-router-hash-link';
+import logo from './images/navbar_logo.png'
 // import { FaTimes, FaBars } from 'react-icons/fa';
 // import { Button } from './Button';
 
@@ -33,7 +34,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link className="navbar-logo" onClick={closeMobileMenu}>
-                    bok
+                    <img src={logo} className="logo-pic" />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click? 'fas fa-times' : 'fas fa-bars'} />
