@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/jZ44LZV/BOK-logo.png" style="height: 200px" />
+  <img src="https://i.ibb.co/QJWStzL/bok-logo.png" style="height: 200px" />
 </div>
 
 # Project-BOK
